@@ -1,0 +1,30 @@
+{
+  "name": "teepluss/consume",
+  "description": "Browser console for Laravel Framework.",
+  "keywords": [
+    "laravel",
+    "browser",
+    "console"
+  ],
+  "license": "MIT",
+    "authors": [
+      {
+        "name": "Teepluss",
+        "email": "teepluss@gmail.com",
+        "homepage": "https://github.com/teepluss",
+        "role": "Developer"
+      }
+    ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": ">=5.1.0",
+    "zendframework/zend-diactoros": "^1.3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Teepluss\\Consume\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+    "prefer-stable": true
+}
