@@ -23,6 +23,8 @@ class ConsumeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton('consume.api', function ($app) {
+            return new Consume($app, $app['request'], $app['router']);
+        });
     }
 }
