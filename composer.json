@@ -1,10 +1,10 @@
 {
   "name": "teepluss/consume",
-  "description": "Browser console for Laravel Framework.",
+  "description": "Retrieving data from a REST api without HTTP request.",
   "keywords": [
     "laravel",
-    "browser",
-    "console"
+    "RESTful",
+    "consume"
   ],
   "license": "MIT",
     "authors": [
@@ -12,7 +12,7 @@
         "name": "Teepluss",
         "email": "teepluss@gmail.com",
         "homepage": "https://github.com/teepluss",
-        "role": "Developer"
+        "role": "Engineer"
       }
     ],
   "require": {
